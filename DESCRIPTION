@@ -1,4 +1,4 @@
-Package: grobidR
+Package: grobidr
 Type: Package
 Title: Call GROBID API for Extracting Information from Scholarly Documents from R
 Version: 0.0.1
