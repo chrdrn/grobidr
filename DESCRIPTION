@@ -1,0 +1,27 @@
+Package: grobidR
+Type: Package
+Title: Call GROBID API for Extracting Information from Scholarly Documents from R
+Version: 0.0.1
+Authors@R: 
+    person(
+        given = "Christoph",
+        family = "Adrian",
+        email = "christoph.adrian@fau.de",
+        role = c("aut", "cre"), 
+        comment = c(ORCID = "0000-0002-0441-4150")
+    )
+Maintainer: Christoph Adrian <christoph.adrian@fau.de>
+Description: Provides functions to call GROBID API tool for extracting information from scholarly documents and process the output. 
+    This package allows users to parse and extract metadata, references, and other structured information from PDF files.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    here,
+    httr,
+    tibble,
+    xml2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
